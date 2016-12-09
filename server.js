@@ -16,6 +16,3 @@ http.createServer(function (request, response) {
         response.end('Hello Cloud\n'); 
    } 
 }).listen(process.env.PORT);
-
-Contact GitHub API Training Shop Blog About
-© 2016 GitHub, Inc. Terms Privacy Security Status Help
