@@ -7,6 +7,7 @@ http.createServer(function (request, response) {
    response.writeHead(200, {'Content-Type': 'text/plain'});
 
     // Send the response body as "Hello Cloud"
+	var processId = null;
     var processId = process.pid;
     response.end('process id: '+processId); 
    
