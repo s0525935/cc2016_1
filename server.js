@@ -56,7 +56,7 @@ http.createServer(function (request, response) {
         response.end('Wow, this was an awesome '+request.method+' request. But you were requestesd to make a POST request.!\n'); 
    }
    
-}).listen(8081);
+}).listen(process.env.PORT);
 
 // Console will print the message
 console.log('Server running at http://127.0.0.1:8081/');
